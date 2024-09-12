@@ -5,6 +5,9 @@ namespace kreb
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
             Console.WriteLine("Dator kaboom om 3 sekunder");
             Console.WriteLine("3...2...1...");
         }
